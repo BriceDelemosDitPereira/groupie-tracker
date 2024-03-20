@@ -14,11 +14,11 @@ Groupie-Tracker is a project written in Golang aimed at receiving a given [API](
    - First Album.
    - Concert Dates.
    <p align="center">
-   <img src="picturesReadme/artist_page.png" alt="artist_page">
+   <img src="picturesReadme/artist_page.png" alt="artist_page" width="200">
    </p>
 - Click on one of them to view displaying detailed information :
    <p align="center">
-   <img src="picturesReadme/artist_detailed.png" alt="artist_detailed">
+   <img src="picturesReadme/artist_detailed.png" alt="artist_detailed" width="200">
    </p>
 - Search functionality allows users to search for groups, artists, album names, and concert venues.
 - Filters enable users to refine the list of displayed groups on the homepage.
