@@ -8,7 +8,18 @@ Groupie-Tracker is a project written in Golang aimed at receiving a given [API](
 ## Features
 
 - Display a list of music groups on the homepage.
-- Click on a group's image to navigate to its dedicated page displaying detailed information such as first album, creation dates, etc.
+- Click on a group's image to navigate to its dedicated : 
+   - Members.
+   - Creation Date.
+   - First Album.
+   - Concert Dates.
+   <p align="center">
+   <img src="picturesReadme/artist_page.png" alt="artist_page">
+   </p>
+- Click on one of them to view displaying detailed information :
+   <p align="center">
+   <img src="picturesReadme/artist_detailed.png" alt="artist_detailed">
+   </p>
 - Search functionality allows users to search for groups, artists, album names, and concert venues.
 - Filters enable users to refine the list of displayed groups on the homepage.
 - Styled with CSS inspired by JoJo's Bizarre Adventure.
@@ -37,23 +48,11 @@ To run Groupie-Tracker locally, follow these steps:
    ```
    go run cmd/main.go
    ```
-6. Access the application in your web browser at `http://localhost:8080` or click in your terminal on the link
+6. Access the application in your web browser at `http://localhost:8080` or click in your terminal on the link.
 
 ## Usage
 
 Upon running Groupie-Tracker, you can access the homepage where a list of music groups is displayed. You can click on any group's image to view detailed information about that group on a separate page. The search bar allows you to search for specific groups, artists, albums, or concert venues. Additionally, filters are available to narrow down the displayed groups based on certain criteria.
-
-## Dependencies
-
-Groupie-Tracker relies on the following dependencies:
-
-- [Gorilla Mux](https://github.com/gorilla/mux): A powerful HTTP router and URL matcher for building Go web servers.
-- [Your Favorite JSON Parsing Library]: Used for parsing the JSON data received from the API.
-- [CSS Framework]: CSS framework used to implement the JoJo's Bizarre Adventure-inspired styling.
-
-## Contributing
-
-Contributions to Groupie-Tracker are welcome! If you have any ideas for new features, improvements, or bug fixes, feel free to open an issue or submit a pull request.
 
 ## Co-developers
 
