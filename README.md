@@ -1,6 +1,6 @@
 # Groupie-Tracker
 
-Groupie-Tracker is a project written in Golang aimed at receiving a given API and manipulating the contained data to create a website displaying the information. The provided APIs contain music group names, along with their albums, artists, creation dates, first albums, first album dates, and venues where they performed.
+Groupie-Tracker is a project written in Golang aimed at receiving a given [API](https://groupietrackers.herokuapp.com/api) and manipulating the contained data to create a website displaying the information. The provided APIs contain music group names, along with their albums, artists, creation dates, first album dates, and concert dates.
 
 ## Features
 
@@ -24,13 +24,17 @@ To run Groupie-Tracker locally, follow these steps:
    ```
 3. Build the project.
    ```
-   go build
+   go build cmd/main.go
    ```
 4. Run the executable.
    ```
    ./groupie-tracker
    ```
-5. Access the application in your web browser at `http://localhost:8080`.
+5. if you don't want build, you could run the project.
+   ```
+   go run cmd/main.go
+   ```
+6. Access the application in your web browser at `http://localhost:8080` or click in your terminal on the link
 
 ## Usage
 
@@ -48,11 +52,8 @@ Groupie-Tracker relies on the following dependencies:
 
 Contributions to Groupie-Tracker are welcome! If you have any ideas for new features, improvements, or bug fixes, feel free to open an issue or submit a pull request.
 
-## License
+## Co-developers
 
-This project is licensed under the [MIT License](LICENSE).
-
-## Acknowledgments
-
-Special thanks to [API Provider] for providing the APIs used in this project.
-Special thanks to the creators of JoJo's Bizarre Adventure for the inspiration behind the CSS styling.
+- Delestre Thomas
+- Fouquemberg Axelle
+- Lovergne Raphael

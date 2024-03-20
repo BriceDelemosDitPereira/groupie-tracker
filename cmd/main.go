@@ -2,13 +2,14 @@ package main
 
 import (
 	"fmt"
+	"net/http"
+
 	data "groupie_upgrade/data"
 	error "groupie_upgrade/error"
 	handler "groupie_upgrade/handler"
-	"net/http"
 )
 
-var port = ":5050"
+var port = ":8080"
 
 func main() {
 	http.Handle("/style/", http.StripPrefix("/style/", http.FileServer(http.Dir("style"))))
@@ -29,6 +30,6 @@ func main() {
 		}
 	})
 	// link URL
-	fmt.Println("http://localhost:5050/")
+	fmt.Println("http://localhost:8080/")
 	http.ListenAndServe(port, nil)
 }
