@@ -60,4 +60,4 @@ Upon running Groupie-Tracker, you can access the homepage where a list of music 
 
 - Delestre Thomas
 - Fouquemberg Axelle
-- Lovergne Raphael
+- Lovergne Raphael (@Ne0Jiku)
