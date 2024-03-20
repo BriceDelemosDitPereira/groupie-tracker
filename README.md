@@ -16,12 +16,14 @@ Groupie-Tracker is a project written in Golang aimed at receiving a given [API](
    <p align="center">
    <img src="picturesReadme/artist_page.png" alt="artist_page" width="500">
    </p>
-- Click on one of them to view displaying detailed information :
+- Click on one (or all) of them to view displaying detailed information :
    <p align="center">
    <img src="picturesReadme/artist_detailed.png" alt="artist_detailed" width="500">
    </p>
-- Search functionality allows users to search for groups, artists, album names, and concert venues.
+- Search functionality allows users to search for groups, artists, album names, and concerts.
+   - Please note, you must return to the home page to restart a search.
 - Filters enable users to refine the list of displayed groups on the homepage.
+- Handling 3 errors (400, 404 and 500)
 - Styled with CSS inspired by JoJo's Bizarre Adventure.
 
 ## Installation
@@ -52,7 +54,7 @@ To run Groupie-Tracker locally, follow these steps:
 
 ## Usage
 
-Upon running Groupie-Tracker, you can access the homepage where a list of music groups is displayed. You can click on any group's image to view detailed information about that group on a separate page. The search bar allows you to search for specific groups, artists, albums, or concert venues. Additionally, filters are available to narrow down the displayed groups based on certain criteria.
+Upon running Groupie-Tracker, you can access the homepage where a list of music groups is displayed. You can click on any group's image to view detailed information about that group on a separate page. The search bar allows you to search for specific groups, artists, albums, or concerts (you must return to the home page to restart a search). Additionally, filters are available to narrow down the displayed groups based on certain criteria.
 
 ## Co-developers
 
