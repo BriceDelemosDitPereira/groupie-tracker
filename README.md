@@ -58,6 +58,6 @@ Upon running Groupie-Tracker, you can access the homepage where a list of music 
 
 ## Co-developers
 
-- Delestre Thomas
+- [Delestre Thomas](https://github.com/Thomas-Delestre)
 - Fouquemberg Axelle
 - [Lovergne Raphael](https://github.com/Ne0Jiku)
