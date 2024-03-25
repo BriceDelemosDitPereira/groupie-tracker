@@ -57,6 +57,10 @@ To run Groupie-Tracker locally, follow these steps:
 
 Upon running Groupie-Tracker, you can access the homepage where a list of music groups is displayed. You can click on any group's image to view detailed information about that group on a separate page. The search bar allows you to search for specific groups, artists, albums, or concerts (you must return to the home page to restart a search). Additionally, filters are available to narrow down the displayed groups based on certain criteria.
 
+## Geolocalization
+
+Groupie tracker geolocalization was done locally. This project is not in this repository as it was linked to a Google account. If you want to know more about this project, please go to the "instructions_audits" folder and click on the corresponding links.
+
 ## Co-developers
 
 - [Delestre Thomas](https://github.com/Thomas-Delestre)
