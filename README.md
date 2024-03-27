@@ -25,6 +25,9 @@ This project was carried out as part of the training : [Zone01](https://zone01ro
    - Please note, you must return to the home page to restart a search.
 - Filters enable users to refine the list of displayed groups on the homepage.
 - Handling 3 errors (400, 404 and 500)
+   <p align="center">
+   <img src="picturesReadme/error_page.png" alt="error_page" width="500">
+   </p>
 - Styled with CSS inspired by JoJo's Bizarre Adventure.
 
 ## Installation
