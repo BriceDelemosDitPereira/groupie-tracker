@@ -28,7 +28,7 @@ This project was carried out as part of the training : [Zone01](https://zone01ro
    <p align="center">
    <img src="picturesReadme/error_page.png" alt="error_page" width="500">
    </p>
-- Styled with CSS inspired by **JoJo's Bizarre Adventure**.
+- Styled with CSS inspired by ***JoJo's Bizarre Adventure***.
 
 ## Installation
 
